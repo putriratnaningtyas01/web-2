@@ -1,0 +1,40 @@
+1. Dokumen root adalah folder tempat file website untuk nama domain tersimpan.
+
+2. Dokumen root Apache tidak harus berada di C:\xampp\htdocs. Tapi bisa mengubahnya melalui konfigurasi httpd.conf atau menggunakan Virtual Host untuk lebih fleksibel dalam mengelola proyek.
+
+3. Perintah git init :  Digunakan saat memulai proyek baru / membuat repository Git baru di dalam sebuah folder.
+   Perintah git clone : Digunakan untuk menduplikasi (mengkloning) repository Git yang sudah ada, baik yang ada di layanan seperti GitHub maupun di server lain, agar bisa dikerjakan secara lokal.
+   Perintah git remote : Digunakan untuk mengelola remote repository yang terhubung dengan repository lokal. Kita bisa menambahkan, melihat, atau menghapus koneksi ke repository jarak jauh (misalnya GitHub, GitLab, atau Bitbucket).
+   Perintah git add : Digunakan untuk menambahkan / menyimpan perubahan pada file ke dalam sistem Git sebelum dicommit.
+   Perintah git commit : Digunakan untuk menyimpan perubahan yang telah ditambahkan ke staging area ke dalam repository lokal.
+   Perintah git push : Digunakan untuk mengirim (mengunggah) commit yang sudah dibuat repository lokal ke repository remote / repository jarak jauh (misalnya GitHub).
+   Perintah git checkout : Digunakan untuk berpindah antar versi atau bekerja di cabang (branch) atau commit tertentu dalam repository Git.
+
+4. GitHub dan GitLab adalah dua platform yang digunakan untuk mengelola repository Git, tetapi keduanya memiliki beberapa perbedaan utama dalam fitur, penggunaan, dan model bisnis.
+   1) Kepemilikan dan Model Hosting : GitHub dimiliki oleh Microsoft dan berfokus pada hosting repository berbasis cloud melalui github.com. GitHub juga memiliki opsi GitHub Enterprise, yang memungkinkan pengguna meng-host sendiri repository mereka, tetapi ini adalah fitur berbayar.
+Sebaliknya, GitLab dimiliki oleh GitLab Inc. dan lebih fleksibel dalam hal hosting. Selain tersedia dalam versi cloud-based (gitlab.com), GitLab juga memungkinkan pengguna untuk self-hosting secara gratis, menjadikannya pilihan yang lebih menarik bagi organisasi yang ingin mengelola kode mereka secara independen.
+   2) Fokus Utama dan Penggunaan : GitHub lebih terkenal di kalangan komunitas open-source dan tim pengembang yang ingin berkolaborasi dalam proyek publik. Banyak proyek open-source besar, seperti Linux, TensorFlow, dan React, menggunakan GitHub karena jangkauan komunitasnya yang luas.
+Di sisi lain, GitLab lebih berfokus pada DevOps dan menawarkan solusi end-to-end untuk pengembangan perangkat lunak, termasuk fitur manajemen proyek, CI/CD, dan keamanan dalam satu platform. GitLab sering digunakan oleh perusahaan yang ingin mengintegrasikan pengembangan perangkat lunak dengan deployment otomatis.
+   3) Integrasi dan Alat Eksternal : GitHub memiliki ekosistem integrasi yang sangat luas dan mendukung banyak layanan pihak ketiga, seperti AWS, Azure, Travis CI, dan Jenkins. Ini memudahkan pengembang untuk menghubungkan GitHub dengan alat lain yang sudah mereka gunakan.
+GitLab, meskipun memiliki fitur bawaan yang lebih banyak, juga memungkinkan integrasi dengan berbagai layanan eksternal. Namun, karena banyak fitur GitLab sudah tersedia dalam platformnya sendiri, pengguna sering tidak perlu bergantung pada alat tambahan.
+   4) Harga dan Lisensi : GitHub menawarkan fitur dasar secara gratis dan memiliki paket berbayar untuk fitur lanjutan seperti GitHub Teams dan GitHub Enterprise. Beberapa fitur kontrol akses dan keamanan tingkat lanjut hanya tersedia dalam versi berbayar.
+GitLab lebih fleksibel dalam hal harga karena mendukung self-hosting secara gratis, bahkan untuk fitur-fitur yang di GitHub hanya tersedia dalam versi berbayar. Untuk perusahaan yang ingin mengelola kode mereka sendiri tanpa biaya tambahan, GitLab sering menjadi pilihan yang lebih menarik.
+   5) Continuous Integration/Continuous Deployment (CI/CD) : GitHub memiliki fitur GitHub Actions untuk CI/CD, tetapi fitur ini masih berkembang dan sering memerlukan integrasi dengan layanan pihak ketiga seperti Travis CI atau Jenkins untuk kebutuhan yang lebih kompleks.
+Sebaliknya, GitLab memiliki GitLab CI/CD yang lebih kuat dan sudah terintegrasi langsung tanpa perlu alat tambahan. Ini membuat GitLab lebih unggul dalam hal otomatisasi pengujian dan deployment dibandingkan GitHub.
+   6) Private Repository dan Kontrol Akses : Baik GitHub maupun GitLab menyediakan opsi untuk membuat repository pribadi secara gratis. Namun, dalam versi gratisnya, GitHub memiliki batasan tertentu dalam hal kontrol akses pengguna.
+GitLab menawarkan kontrol akses yang lebih fleksibel pada repository pribadi di versi gratisnya, memungkinkan tim untuk mengatur izin lebih detail tanpa harus membayar fitur tambahan.
+
+5. Variable user : hanya berlaku untuk pengguna tertentu dan dapat diubah tanpa mempengaruhi pengguna lain.
+   Variable system : berlaku untuk semua pengguna di komputer dan membutuhkan hak admin untuk mengubahnya.
+
+6. - Menyimpan Nilai yang Digunakan oleh Sistem atau Program
+   - Memengaruhi Cara Kerja Program atau Sistem 
+   - Biasanya Ditentukan Sebelum Digunakan
+   - Menghindari Perubahan yang Tidak Diinginkan   
+
+
+
+
+
+
+
