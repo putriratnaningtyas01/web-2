@@ -45,9 +45,9 @@ class MahasiswaResource extends Resource
                 //nama
                 SelectFilter::make('nama')
                     ->options([
-                        'Budi Santoso' => 'Islam',
-                        'Siti Aminah' => 'Kristen',
-                        'Andi Wijaya' => 'Hindu',
+                        'Budi Santoso' => 'Budi Santoso',
+                        'Siti Aminah' => 'Siti Aminah',
+                        'Andi Wijaya' => 'Andi Wijaya',
                     ]),
 
                 //nim
@@ -61,9 +61,9 @@ class MahasiswaResource extends Resource
                 //jurusan
                 SelectFilter::make('jurusan')
                     ->options([
-                        'Teknik Informatika' => '1234567890',
-                        'Sistem Informasi' => '0987654321',
-                        'Teknik Elektro' => '1122334455',
+                        'Teknik Informatika' => 'Teknik Informatika',
+                        'Sistem Informasi' => 'Sistem Informasi',
+                        'Teknik Elektro' => 'Teknik Elektro',
                     ]),
                     
                 //jenis_kelamin
@@ -84,8 +84,8 @@ class MahasiswaResource extends Resource
                 //status
                 SelectFilter::make('status')
                     ->options([
-                        'aktif' => 'aktif-Laki',
-                        'tidak Aktif' => 'Perempuan',
+                        'aktif' => 'aktif',
+                        'tidak aktif' => 'tidak aktif',
                     ])
 
             ])
